@@ -2,8 +2,12 @@ package com.example.senai.View;
 
 
 import com.example.senai.Model.Produto;
+import com.example.senai.Controller.ProdutoController;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/produto")
 public class TesteProduto {
